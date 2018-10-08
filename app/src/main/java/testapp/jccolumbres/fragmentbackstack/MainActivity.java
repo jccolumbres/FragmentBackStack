@@ -122,4 +122,13 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"Not attached",Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void dummyBackClick(View view) {
+    }
+
+    public void popAddFragAIncTrans(View view) {
+    }
+
+    public void popAddFragBTrans(View view) {
+    }
 }

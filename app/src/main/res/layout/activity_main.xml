@@ -76,6 +76,27 @@
             android:onClick="hideFrag"/>
 
     </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="dummyBackClick"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop Add A Inclusive"
+            android:onClick="popAddFragAIncTrans"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop Add b"
+            android:onClick="popAddFragBTrans"/>
+
+    </LinearLayout>
 
     <FrameLayout
         android:animateLayoutChanges="true"
