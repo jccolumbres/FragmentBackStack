@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener {
 
-    private static final String TAG = FragmentB.class.getSimpleName();
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     FragmentManager manager;
     @Override
