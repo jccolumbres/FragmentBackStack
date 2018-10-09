@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import testapp.jccolumbres.fragmentbackstack.R;
 
 public class FragmentA extends Fragment {
